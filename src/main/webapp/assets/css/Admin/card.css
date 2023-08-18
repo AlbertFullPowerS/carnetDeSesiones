@@ -1,0 +1,64 @@
+.card-uu {
+    font-size: .5rem;
+}
+.card-uu h5{
+    font-size: 1rem;
+}
+.card-uu a{
+    font-size: .4rem;
+}
+.card-input{
+    font-size: 10rem;
+}
+.card-padding {
+    margin: .3rem;
+
+}
+.card-padding h5{
+    font-size: .5rem;
+}
+
+
+
+
+
+.input-group-sm>.btn, .input-group-sm>.form-control, .input-group-sm>.form-select, .input-group-sm>.input-group-text {
+    padding: .25rem .5rem;
+    font-size: .475rem;
+    border-radius: var(--bs-border-radius-sm);
+}
+
+
+.btn-secondary{
+
+    border-radius: 1.5rem;
+    padding:  .1rem .7rem ;
+}
+
+.card-sm-btn{
+    font-size:.4rem ;
+}
+.sm-t a{
+    font-size: .4rem;
+    padding: .2rem .4rem;
+    text-decoration: none;
+
+}
+.search
+{
+    width: 50%;
+    font-size: .7rem;
+    height:auto;
+    min-height:auto;
+}
+.search-input
+{
+
+    height: calc(1.0rem + calc(var(--bs-border-width) * 2))!important;
+    min-height: calc(1.0rem + calc(var(--bs-border-width) * 2))!important;
+}
+.search-span
+{
+
+   padding: .4rem .20rem!important;
+}

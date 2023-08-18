@@ -1,0 +1,85 @@
+.fondo-complete
+{
+    background-color: var(--color-claro-blanco);
+    background-size: cover;
+    height: 77vh;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 1.5rem 0 3rem 3rem;
+}
+.boton {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-utez-azul);
+}
+.icon{
+    width: 1rem;
+    height: 1rem;
+}
+.up{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.calendar {
+    margin-left: 3rem;
+    font-size: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: .25rem;
+}
+.calendar .slot {
+    margin: .5rem auto;
+    padding: .2rem;
+    border: 1px solid #ddd;
+    text-align: center;
+  height: 1.5rem;
+    width: 2.4rem;
+    cursor: pointer;
+}
+.calendar .slot.unavailable {
+    background-color: var(--color-utez-azul);
+    cursor: not-allowed;
+}
+.calendar .slot.selected {
+    background-color: var(--color-utez-verde);
+    color: white;
+}
+.dia1 {
+    border-radius: 1rem 0 0 1rem;
+}
+.dia2 {
+    border-radius: 0 1rem 1rem 0;
+}
+.borde {
+    box-shadow: 0 2px 0 rgba(81, 79, 79, 0.5);
+}
+.hov{
+    transition-duration: .2s;
+}
+.hov:hover {
+    background-color: var(--color-utez-verde-claro);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem; 
+}
+.dateSupr
+{
+    border: .2em solid var(--color-utez-azul);
+	padding: .8em .9em;
+	border-radius: 2em;
+	color: var(--color-utez-azul);
+}
+.sesion-div {
+    width: 12rem;
+    font-size: .6rem;
+    border: .05rem solid #ccc;
+    border-radius: .7rem;
+    padding: .7rem;
+    margin: .5rem;
+}
+#div-sesiones {
+    display: flex;
+    flex-wrap: wrap;
+}

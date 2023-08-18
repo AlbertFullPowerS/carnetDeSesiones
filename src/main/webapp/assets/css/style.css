@@ -1,0 +1,167 @@
+
+@font-face
+{
+	font-family: "Asap Condensed";
+	src: url('../fonts/AsapCondensed-SemiBold.ttf') format('truetype');
+}
+:root {
+    --color-utez-azul: #0D3464;
+    --color-utez-verde-claro: #14AC8CCC;
+    --color-utez-verde: #14AC8C;
+  --color-claro-gris-v2: #a8a8a8;
+    --color-claro-gris: #727272;
+    --color-claro-blanco: #ffffff;
+  --color-rojo: #ec1b1b;
+  --color-rojo-claro: #ef2e2e;
+    
+  }
+  html
+  {
+    font-size: calc(1em + 1vw);
+  
+  
+  }
+  .txt-1-white
+  {
+    color: var(--color-claro-blanco);
+    text-align: center;
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .txt-2-gray{
+    color: var(--color-claro-gris);
+    text-align: center;
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+.txt-2-gray-v2{
+  color: var(--color-claro-gris-v2);
+  text-align: center;
+  font-family: Asap Condensed;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+  .tl-1-white
+  {
+    color: var(--color-claro-blanco);
+    text-align: center;
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .txt-3-blue{
+    color: var(--color-utez-azul);
+    text-align: center;
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .txt-4-green
+  {
+    color: var(--color-utez-verde);
+    text-align: center;
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+.txt-4-red
+{
+  color: var(--color-rojo-claro);
+  text-align: center;
+  font-family: 'Asap Condensed';
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+  .txt-5-blue
+  {
+    color: var(--color-utez-azul);
+    text-align: center;
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  /*Ejemplo de como utilizarla */
+  .uno {
+    color: white;
+    background-color: var(--color-utez-azul);
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+  }
+.btn-blue{
+  margin: .5rem 3rem;
+  padding: .2rem 1rem;
+  font-size: .5rem;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  background-color: transparent;
+  border: var(--color-claro-blanco) solid .01rem;
+  border-radius: 1rem;
+  color: var(--color-claro-blanco);
+  cursor: pointer;
+  transition-duration: .06s;
+}
+.btn-blue:hover {
+  background-color: var(--color-claro-blanco);
+  color: var(--color-utez-azul);
+}
+.btn-gray{
+  margin: .5rem 3rem;
+  padding: .2rem 1rem;
+  font-size: .5rem;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  background-color: var(--color-claro-gris);
+  border: var(--color-claro-gris) solid .01rem;
+  border-radius: 1rem;
+  color: var(--color-claro-blanco);
+  cursor: pointer;
+  transition-duration: .06s;
+}
+.btn-gray:hover {
+  background-color: #a9a9a9;
+  color: var(--color-claro-blanco);
+}
+.btn-green{
+  padding: .2rem 1rem;
+  font-size: .5rem;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  border-radius: 1rem;
+  color: var(--color-claro-blanco);
+  border: none;
+  transition-duration: .2s;
+  padding:  .1rem .7rem ;
+  background: var(--color-utez-verde-claro);
+}
+.btn-green:hover{
+
+  background-color: var(--color-utez-verde);
+  color: var(--color-claro-blanco);
+
+}
+.img-u
+{
+  width: 5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  filter: invert(.5) brightness(2);
+}

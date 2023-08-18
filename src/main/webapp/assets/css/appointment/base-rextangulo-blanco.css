@@ -1,0 +1,105 @@
+/* PARTE GENERAL DE LA PAGINA */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--color-utez-azul);
+}
+/* Para hacer flex la parte superior de la pagina y darle su respectivo formato*/
+.flex-end {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Este apartado es para darle formato a la parte de navegacion, la barra blanca con los iconos */
+.navegation {
+    display: flex;
+    width: 20rem;
+    height: 1.5rem;
+    background-color: var(--color-claro-blanco);
+    justify-content: space-evenly;
+    padding: .2rem;
+    border-radius: 1rem;
+    margin-top: .2rem;
+}
+.nav {
+    cursor: pointer;
+}
+/* Sirve para darle formato a los botones azules como es el de "SALIR" y "PERFIL" */
+
+/* Sirve para darle formato a los botones verdes de confirmacion */
+
+/* Sirve para darle formato a los botones blancos en el apartado de inicio para "PERFIL" */
+.btn-white{
+    transition: 1s;
+    margin: .5rem 2rem;
+    width: 3rem;
+    height: 1rem;
+    font-size: .4rem;
+    background-color: transparent;
+    
+    text-transform:uppercase;
+    border: .05rem solid var(--color-utez-azul);
+    border-radius: 1rem;
+    color: var(--color-utez-azul);
+    cursor: pointer;
+}
+.btn-white:hover {
+    transition: .5s;
+    background-color: var(--color-utez-azul);
+    color: var(--color-claro-blanco);
+    border-style: ridge;
+    border-color: var(--color-utez-azul);
+}
+/* Esta parte es para lo blanco en donde ira toda la informacion central, el mensaje de la pagina */
+.content
+{
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fondo
+{
+    background-color: var(--color-claro-blanco);
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 1rem 0 0 1rem;
+    padding: 2rem 0 3rem 3rem;
+}
+.content_list{
+    display: grid;
+    height: 70vh;
+    background-color: var(--color-claro-blanco);
+
+}
+
+.miTablaPersonalizada {
+    padding-bottom: .3rem;
+    overflow: hidden;
+}
+tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+tr:hover {
+    background-color: var(--color-utez-verde-claro);
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+.hv:hover {
+    background-color: var(--color-utez-verde-claro);
+    transform: none;
+    box-shadow: none;
+}
+.selected
+{
+    background-color: var(--color-utez-verde-claro);
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}

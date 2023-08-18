@@ -1,0 +1,10 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.content {
+    background-color: var(--color-claro-blanco);
+    height: auto;
+}

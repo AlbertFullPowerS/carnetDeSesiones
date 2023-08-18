@@ -1,0 +1,132 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.content-body
+{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.flex-end
+{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    margin: 1rem;
+}
+.text-header{
+    text-align: left;
+    padding: 3rem;
+    font-size: .6rem;
+}
+.text-header span {
+    font-size: 2rem;
+}
+
+.btn-blue{
+    margin: .5rem 3rem;
+    padding: .2rem 1rem;
+    font-size: .5rem;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    background-color: transparent;
+    border: var(--color-claro-blanco) solid .01rem;
+    border-radius: 1rem;
+    color: var(--color-claro-blanco);
+    cursor: pointer;
+    transition-duration: .06s;
+}
+.btn-blue:hover {
+    background-color: var(--color-claro-blanco);
+    color: var(--color-utez-azul);
+}
+.content
+{
+    height: 65vh;
+    width: 70%;
+    margin: 4% auto 0 auto;
+    display: flex;
+}
+.masc-blue
+{
+    background-color: var(--color-utez-azul);
+    clip-path: inset(0 0 28% 0);
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+
+.img-utez
+{
+    background-image: url(https://www.zonacentronoticias.com/wp-content/uploads/2015/07/UTEZ-15-ANIVERSARIO1.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 70vw;
+   position: absolute;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+   border-radius: 1rem;
+}
+
+.content-option
+{
+    display: flex;
+    position: relative;
+    align-items: end;
+    justify-content: space-evenly;
+    width: 70vw;
+    height: 68vh;
+}
+.item
+{
+    background-color: var(--color-claro-blanco);
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    padding: .5rem .3rem;
+    width: 15vw;
+    height: 13vh;
+    cursor: pointer;
+}
+.item a{
+    text-decoration: none;
+}
+.icon{
+    width: 1rem;
+    height: 1rem;
+
+}
+.sl {
+    font-size: .4rem;
+    padding: .2rem 1rem .2rem 1rem;
+}
+
+.btn-white{
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    background-color: buttonface;
+    padding: 1px 6px;
+    width: 3rem;
+    ground-color: transparent;
+    border: var(--color-utez-azul) solid .01rem;
+    border-radius: 1rem;
+    color: var(--color-utez-azul);
+    margin-left: 1rem;
+    cursor: pointer;
+    transition-duration: .3s;
+    font-size: smaller;
+}
+.btn-white:hover {
+    background-color: var(--color-utez-azul);
+    color: var(--color-claro-blanco);
+}
+.subt {
+    font-size: .8rem;
+}
